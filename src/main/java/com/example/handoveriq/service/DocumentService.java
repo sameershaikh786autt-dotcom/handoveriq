@@ -28,7 +28,7 @@ public class DocumentService {
         user.getDocuments().add(response);
         documentRepository.save(document);
 
-        return "Document details saved successfully";
+        return user.getId();
     }
 
     public Document getDocumentDetailsById(String documentId) {
