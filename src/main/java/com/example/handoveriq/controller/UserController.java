@@ -16,7 +16,7 @@ import java.util.Map;
 @RequestMapping("/api/handoveriq")
 @RequiredArgsConstructor
 @Slf4j
-//@CrossOrigin(origins = "*") // Is controller ke saare APIs par CORS enable ho jayega
+@CrossOrigin(origins = "*") // Is controller ke saare APIs par CORS enable ho jayega
 public class UserController {
     private final UserService userService;
 
